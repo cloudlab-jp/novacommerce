@@ -182,6 +182,34 @@ Later
 
 ---
 
+# Planned Evolution
+
+The application will progressively evolve throughout the Engineering Program.
+
+Future Sprints may introduce:
+
+- Microservices
+- Amazon ECS
+- Amazon EKS
+- AWS Lambda
+- Amazon API Gateway
+- Amazon RDS
+- Amazon DynamoDB
+- Amazon SQS
+- Amazon SNS
+- Amazon EventBridge
+- Amazon ElastiCache
+- Amazon CloudFront
+- Route 53
+- Observability
+- Chaos Engineering
+- AI Agents
+- Retrieval-Augmented Generation (RAG)
+- Data Engineering
+- Internal Developer Platform (IDP)
+
+---
+
 # Engineering Roadmap
 
 ## Sprint 0
@@ -209,7 +237,7 @@ Completed
 
 # Sprint 1 — Launch the MVP
 
-> **Goal:** Build the first production-ready version of NovaCommerce.
+> **Goal:** Build the first Engineering-ready MVP version of NovaCommerce.
 
 ---
 
@@ -221,7 +249,7 @@ At this stage, there is no existing application. The engineering team must deliv
 
 Although the initial architecture will be a modular monolith, every design decision should consider the future migration to a cloud-native microservices architecture.
 
-The objective of this Sprint is not only to deliver software, but also to establish a production-ready engineering foundation that will support the following phases of the project.
+The objective of this Sprint is not only to deliver software, but also to establish a Engineering-ready MVP foundation that will support the following phases of the project.
 
 ---
 
@@ -330,7 +358,11 @@ Infrastructure should include:
 - IAM Roles
 - Elastic IP (if required)
 
-Everything must be provisioned using Terraform.
+Infrastructure must be provisioned using Infrastructure as Code.
+
+The primary IaC technology will be Terraform.
+
+Some future Sprints will intentionally adopt AWS CloudFormation and AWS SAM to compare different approaches and engineering trade-offs.
 
 ---
 
@@ -402,7 +434,7 @@ Repositories updated during this Sprint.
 - docs
 - engineering-template
 - engineering-playbook
-- ec-001-monolith
+- novacommerce
 
 ---
 

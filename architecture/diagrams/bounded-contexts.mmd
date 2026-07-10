@@ -1,0 +1,37 @@
+flowchart TB
+
+subgraph Identity
+    Users
+    Roles
+    Authentication
+end
+
+subgraph Catalog
+    Products
+    Categories
+    Brands
+end
+
+subgraph ShoppingCart
+    Cart
+end
+
+subgraph Orders
+    OrdersModule
+end
+
+subgraph Inventory
+    Stock
+end
+
+subgraph Notifications
+    Email
+end
+
+Identity --> ShoppingCart
+
+ShoppingCart --> Orders
+
+Orders --> Inventory
+
+Orders --> Notifications

@@ -1,0 +1,29 @@
+flowchart LR
+
+Identity
+Catalog
+Search
+ShoppingCart
+Orders
+Inventory
+Notifications
+Administration
+Analytics
+AI
+
+Identity --> ShoppingCart
+Identity --> Orders
+
+Catalog --> ShoppingCart
+Catalog --> Search
+
+ShoppingCart --> Orders
+
+Orders --> Inventory
+Orders --> Notifications
+
+Catalog -.-> Analytics
+Orders -.-> Analytics
+
+Catalog -.-> AI
+Orders -.-> AI

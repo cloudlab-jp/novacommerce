@@ -1,0 +1,11 @@
+flowchart LR
+
+Customer -->|Place Order| OrderCreated
+
+OrderCreated --> InventoryReserved
+
+InventoryReserved --> PaymentApproved
+
+PaymentApproved --> NotificationSent
+
+NotificationSent --> OrderCompleted

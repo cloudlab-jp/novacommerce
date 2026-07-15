@@ -1,4 +1,4 @@
-package com.cloudlabjp.novacommerce.common.response;
+package com.cloudlabjp.novacommerce.response;
 
 import java.time.Instant;
 import java.util.List;

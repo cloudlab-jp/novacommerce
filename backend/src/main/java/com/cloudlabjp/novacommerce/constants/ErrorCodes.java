@@ -1,4 +1,4 @@
-package com.cloudlabjp.novacommerce.common.constants;
+package com.cloudlabjp.novacommerce.constants;
 
 public final class ErrorCodes {
 

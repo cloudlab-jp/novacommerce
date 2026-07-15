@@ -1,9 +1,9 @@
-package com.cloudlabjp.novacommerce.common.exception;
+package com.cloudlabjp.novacommerce.exception;
 
-import com.cloudlabjp.novacommerce.common.constants.ApiMessages;
-import com.cloudlabjp.novacommerce.common.constants.ErrorCodes;
-import com.cloudlabjp.novacommerce.common.response.ApiError;
-import com.cloudlabjp.novacommerce.common.response.ValidationError;
+import com.cloudlabjp.novacommerce.constants.ApiMessages;
+import com.cloudlabjp.novacommerce.constants.ErrorCodes;
+import com.cloudlabjp.novacommerce.response.ApiError;
+import com.cloudlabjp.novacommerce.response.ValidationError;
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -25,3 +25,12 @@ logging:
     org.springframework: INFO
     org.hibernate.SQL: DEBUG
     org.hibernate.orm.jdbc.bind: TRACE
+
+springdoc:
+  api-docs:
+    path: /api/docs
+
+  swagger-ui:
+    path: /swagger
+    operationsSorter: method
+    tagsSorter: alpha

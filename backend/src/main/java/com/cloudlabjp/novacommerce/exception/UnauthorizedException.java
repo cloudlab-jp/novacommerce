@@ -1,4 +1,4 @@
-package com.cloudlabjp.novacommerce.common.exception;
+package com.cloudlabjp.novacommerce.exception;
 
 public class UnauthorizedException extends BusinessException {
 

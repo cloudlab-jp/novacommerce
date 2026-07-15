@@ -1,4 +1,4 @@
-package com.cloudlabjp.novacommerce.common.exception;
+package com.cloudlabjp.novacommerce.exception;
 
 public abstract class BusinessException extends RuntimeException {
 

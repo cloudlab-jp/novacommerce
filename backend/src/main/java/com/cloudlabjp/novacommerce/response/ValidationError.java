@@ -1,4 +1,4 @@
-package com.cloudlabjp.novacommerce.common.response;
+package com.cloudlabjp.novacommerce.response;
 
 public record ValidationError(
         String field,

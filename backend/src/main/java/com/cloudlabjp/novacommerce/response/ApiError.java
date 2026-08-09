@@ -16,6 +16,7 @@ public record ApiError(
             String errorCode,
             List<ValidationError> errors
     ) {
+
         return new ApiError(
                 false,
                 message,
@@ -23,12 +24,14 @@ public record ApiError(
                 errors,
                 Instant.now()
         );
+
     }
 
     public static ApiError of(
             String message,
             String errorCode
     ) {
+
         return new ApiError(
                 false,
                 message,
@@ -36,6 +39,7 @@ public record ApiError(
                 List.of(),
                 Instant.now()
         );
+
     }
 
 }
